@@ -1,0 +1,14 @@
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\bin\Debug\61_WFA_HamburgerImproved.exe.config
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\bin\Debug\61_WFA_HamburgerImproved.exe
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\bin\Debug\61_WFA_HamburgerImproved.pdb
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\61_WFA_HamburgerImproved.csprojAssemblyReference.cache
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\_61_WFA_HamburgerImproved.Form1.resources
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\_61_WFA_HamburgerImproved.Properties.Resources.resources
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\_61_WFA_HamburgerImproved.SiparisOlustur.resources
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\61_WFA_HamburgerImproved.csproj.GenerateResource.cache
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\61_WFA_HamburgerImproved.csproj.CoreCompileInputs.cache
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\61_WFA_HamburgerImproved.exe
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\61_WFA_HamburgerImproved.pdb
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\_61_WFA_HamburgerImproved.UrunEkle.resources
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\_61_WFA_HamburgerImproved.EkstraMalzeme.resources
+C:\Users\sccde\source\repos\61_WFA_HamburgerImproved\61_WFA_HamburgerImproved\obj\Debug\_61_WFA_HamburgerImproved.SiparisBilgileri.resources
