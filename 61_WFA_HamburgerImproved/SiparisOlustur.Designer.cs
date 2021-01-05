@@ -182,7 +182,7 @@ namespace _61_WFA_HamburgerImproved
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(662, 506);
+            this.label4.Location = new System.Drawing.Point(548, 509);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 20);
             this.label4.TabIndex = 1;
@@ -190,13 +190,11 @@ namespace _61_WFA_HamburgerImproved
             // 
             // lblToplamTutar
             // 
-            this.lblToplamTutar.AutoSize = true;
             this.lblToplamTutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblToplamTutar.Location = new System.Drawing.Point(770, 506);
+            this.lblToplamTutar.Location = new System.Drawing.Point(656, 509);
             this.lblToplamTutar.Name = "lblToplamTutar";
-            this.lblToplamTutar.Size = new System.Drawing.Size(18, 20);
+            this.lblToplamTutar.Size = new System.Drawing.Size(87, 20);
             this.lblToplamTutar.TabIndex = 1;
-            this.lblToplamTutar.Text = "0";
             // 
             // btnTamamla
             // 
@@ -207,12 +205,13 @@ namespace _61_WFA_HamburgerImproved
             this.btnTamamla.TabIndex = 6;
             this.btnTamamla.Text = "SİPARİŞİ TAMAMLA";
             this.btnTamamla.UseVisualStyleBackColor = true;
+            this.btnTamamla.Click += new System.EventHandler(this.btnTamamla_Click);
             // 
             // SiparisOlustur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 589);
+            this.ClientSize = new System.Drawing.Size(809, 589);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnTamamla);
             this.Controls.Add(this.btnSiparisEkle);

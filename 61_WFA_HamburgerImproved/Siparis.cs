@@ -11,12 +11,14 @@ namespace _61_WFA_HamburgerImproved
         public decimal Fiyat { get; set; }
         public Hamburger Hamburger { get; set; }        
         public Boyut Boyut { get; set; }
+        public int Adet { get; set; }
 
         public static List<Siparis> Siparisler = new List<Siparis>();
+        
 
         public override string ToString()
         {
-            return $"Fiyat: {Fiyat} \nBoyut: {Boyut}, Menü: {Hamburger}";
+            return $"Fiyat: {Fiyat}₺ \nBoyut: {Boyut}, Menü: {Hamburger}, Adet: {Adet}";
         }
     }
 }

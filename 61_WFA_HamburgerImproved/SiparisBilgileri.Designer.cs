@@ -31,9 +31,9 @@ namespace _61_WFA_HamburgerImproved
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblSatilan = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblEkstraMalzemeGeliri = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lblSiparisSayisi = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -56,53 +56,51 @@ namespace _61_WFA_HamburgerImproved
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(13, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(599, 411);
+            this.groupBox1.Size = new System.Drawing.Size(775, 411);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tüm Siparişler";
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.label2);
-            this.groupBox5.Location = new System.Drawing.Point(289, 286);
+            this.groupBox5.Controls.Add(this.lblSatilan);
+            this.groupBox5.Location = new System.Drawing.Point(463, 286);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(287, 77);
             this.groupBox5.TabIndex = 1;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Satılan Ürün Adedi";
             // 
-            // label2
+            // lblSatilan
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(135, 40);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "0";
+            this.lblSatilan.AutoSize = true;
+            this.lblSatilan.Location = new System.Drawing.Point(135, 40);
+            this.lblSatilan.Name = "lblSatilan";
+            this.lblSatilan.Size = new System.Drawing.Size(0, 20);
+            this.lblSatilan.TabIndex = 0;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.label1);
-            this.groupBox4.Location = new System.Drawing.Point(289, 194);
+            this.groupBox4.Controls.Add(this.lblEkstraMalzemeGeliri);
+            this.groupBox4.Location = new System.Drawing.Point(463, 194);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(287, 77);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Ektra Malzeme Geliri";
             // 
-            // label1
+            // lblEkstraMalzemeGeliri
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(135, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(18, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "0";
+            this.lblEkstraMalzemeGeliri.AutoSize = true;
+            this.lblEkstraMalzemeGeliri.Location = new System.Drawing.Point(135, 35);
+            this.lblEkstraMalzemeGeliri.Name = "lblEkstraMalzemeGeliri";
+            this.lblEkstraMalzemeGeliri.Size = new System.Drawing.Size(0, 20);
+            this.lblEkstraMalzemeGeliri.TabIndex = 0;
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.lblSiparisSayisi);
-            this.groupBox3.Location = new System.Drawing.Point(289, 102);
+            this.groupBox3.Location = new System.Drawing.Point(463, 102);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(287, 76);
             this.groupBox3.TabIndex = 1;
@@ -114,14 +112,13 @@ namespace _61_WFA_HamburgerImproved
             this.lblSiparisSayisi.AutoSize = true;
             this.lblSiparisSayisi.Location = new System.Drawing.Point(135, 39);
             this.lblSiparisSayisi.Name = "lblSiparisSayisi";
-            this.lblSiparisSayisi.Size = new System.Drawing.Size(18, 20);
+            this.lblSiparisSayisi.Size = new System.Drawing.Size(0, 20);
             this.lblSiparisSayisi.TabIndex = 0;
-            this.lblSiparisSayisi.Text = "0";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lblCiro);
-            this.groupBox2.Location = new System.Drawing.Point(289, 25);
+            this.groupBox2.Location = new System.Drawing.Point(463, 25);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(287, 71);
             this.groupBox2.TabIndex = 1;
@@ -133,9 +130,8 @@ namespace _61_WFA_HamburgerImproved
             this.lblCiro.AutoSize = true;
             this.lblCiro.Location = new System.Drawing.Point(135, 32);
             this.lblCiro.Name = "lblCiro";
-            this.lblCiro.Size = new System.Drawing.Size(18, 20);
+            this.lblCiro.Size = new System.Drawing.Size(0, 20);
             this.lblCiro.TabIndex = 0;
-            this.lblCiro.Text = "0";
             // 
             // listBox1
             // 
@@ -143,7 +139,7 @@ namespace _61_WFA_HamburgerImproved
             this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(7, 26);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(254, 364);
+            this.listBox1.Size = new System.Drawing.Size(435, 364);
             this.listBox1.TabIndex = 0;
             // 
             // SiparisBilgileri
@@ -156,6 +152,7 @@ namespace _61_WFA_HamburgerImproved
             this.Name = "SiparisBilgileri";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "SiparisBilgileri";
+            this.Load += new System.EventHandler(this.SiparisBilgileri_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
@@ -173,9 +170,9 @@ namespace _61_WFA_HamburgerImproved
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblSatilan;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblEkstraMalzemeGeliri;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label lblSiparisSayisi;
         private System.Windows.Forms.GroupBox groupBox2;
